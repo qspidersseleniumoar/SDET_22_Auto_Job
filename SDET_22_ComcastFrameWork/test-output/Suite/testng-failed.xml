@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.crm.comcast.orgTest.CreateOrgTest">
+        <methods>
+          <include name="createOrgTest"/>
+        </methods>
+      </class> <!-- com.crm.comcast.orgTest.CreateOrgTest -->
+      <class name="com.crm.comcast.conatctTest.CreateContactWithOrgTest">
+        <methods>
+          <include name="createCoantctWithOrgTest"/>
+        </methods>
+      </class> <!-- com.crm.comcast.conatctTest.CreateContactWithOrgTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
